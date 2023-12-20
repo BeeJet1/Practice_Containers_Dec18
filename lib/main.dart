@@ -67,6 +67,24 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ]),
+            SizedBox(height: 30),
+            Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Container(
+                child: const Center(
+                  child: Text(
+                    '...and you have',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 24,
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w600,
+                      fontFamily: 'Poppins',
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ), //Median TEXT
+            ]),
             SizedBox(height: 20),
             Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               Align(alignment: Alignment.center),
@@ -84,19 +102,23 @@ class MyApp extends StatelessWidget {
                   Text(
                     'Beginner',
                     style: const TextStyle(
-                        fontSize: 12,
-                        color: Colors.black,
-                        fontFamily: 'Poppins',
-                        fontStyle: FontStyle.normal),
+                      fontSize: 12,
+                      color: Colors.black,
+                      fontFamily: 'Poppins',
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                   SizedBox(height: 10),
                   Text(
                     '0-6',
                     style: const TextStyle(
-                        fontSize: 24,
-                        color: Colors.black,
-                        fontFamily: 'Poppins',
-                        fontStyle: FontStyle.normal),
+                      fontSize: 24,
+                      color: Colors.black,
+                      fontFamily: 'Poppins',
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                   Text(
                     'months',
@@ -123,19 +145,23 @@ class MyApp extends StatelessWidget {
                   Text(
                     'Intermediate',
                     style: const TextStyle(
-                        fontSize: 12,
-                        color: Colors.black,
-                        fontFamily: 'Poppins',
-                        fontStyle: FontStyle.normal),
+                      fontSize: 12,
+                      color: Colors.black,
+                      fontFamily: 'Poppins',
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                   SizedBox(height: 10),
                   Text(
                     '6-18',
                     style: const TextStyle(
-                        fontSize: 24,
-                        color: Colors.black,
-                        fontFamily: 'Poppins',
-                        fontStyle: FontStyle.normal),
+                      fontSize: 24,
+                      color: Colors.black,
+                      fontFamily: 'Poppins',
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                   Text(
                     'months',
@@ -162,19 +188,23 @@ class MyApp extends StatelessWidget {
                   Text(
                     'Advanced',
                     style: const TextStyle(
-                        fontSize: 12,
-                        color: Colors.black,
-                        fontFamily: 'Poppins',
-                        fontStyle: FontStyle.normal),
+                      fontSize: 12,
+                      color: Colors.black,
+                      fontFamily: 'Poppins',
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                   SizedBox(height: 10),
                   Text(
                     '18+',
                     style: const TextStyle(
-                        fontSize: 24,
-                        color: Colors.black,
-                        fontFamily: 'Poppins',
-                        fontStyle: FontStyle.normal),
+                      fontSize: 24,
+                      color: Colors.black,
+                      fontFamily: 'Poppins',
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                   Text(
                     'months',
